@@ -14,14 +14,13 @@ export default class HomePage extends Component {
       >
         <header style={{height:"500px"}}>
           <Row justify="space-around" align="middle">
-            <Col>
+            <Col md={12}>
               <h1 style={{ color: "#ff5959", paddingTop: "5rem" }}>
                 PacifiX
               </h1>
-              <h2 style={{color:"white"}}>AI-powered suite that</h2>
               <p style={{ fontSize: "1rem", color: "#22d1ee" }}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been{" "}
+                Its an easy to integrate search engine for your blog site, e-commerce or CRM application. It comes pre-configured with a mem-cached, optimized.
+
               </p>
               <Button size="large" type="primary">
                 <b>Get Started</b>
@@ -29,12 +28,12 @@ export default class HomePage extends Component {
             </Col>
           </Row>
         </header>
-        <main style={{ textAlign: "center" }}>
+        <main>
           <div style={{ height: "650x", padding: "2rem" }}>
             <h1 style={{ color: "#ff5959" }}>Our Services</h1>
             <Row justify="center">
               <Col md={12}>
-                <p style={{ fontSize: "1rem" }}>
+                <p style={{ fontSize: "1rem", color:"#22d1ee" }}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s
@@ -51,6 +50,8 @@ export default class HomePage extends Component {
                     width: "25rem",
                   }}
                 >
+                <h2 style={{color:"white"}}>Smart Search</h2>
+
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -66,6 +67,8 @@ export default class HomePage extends Component {
                     width: "25rem",
                   }}
                 >
+                <h2 style={{color:"white"}}>Smart Category Merchandising</h2>
+
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -87,6 +90,8 @@ export default class HomePage extends Component {
                     width: "25rem",
                   }}
                 >
+                <h2 style={{color:"white"}}>Recomendation Search Engine</h2>
+
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -102,6 +107,8 @@ export default class HomePage extends Component {
                     width: "25rem",
                   }}
                 >
+                <h2 style={{color:"white"}}>Personilasation Engine</h2>
+
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
