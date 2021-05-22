@@ -4,7 +4,7 @@
   padding: 0 20px;
   border-bottom: solid 1px #1f4287;
   overflow: auto;
-  background-color: #3f3b3b;
+  background-color:transparent;
 }
 
 .menu__logo {
