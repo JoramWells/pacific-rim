@@ -15,9 +15,10 @@ export default class HomePage extends Component {
         <header style={{height:"500px"}}>
           <Row justify="space-around" align="middle">
             <Col>
-              <h1 style={{ color: "white", paddingTop: "5rem" }}>
-                AI-powered suite that
+              <h1 style={{ color: "#ff5959", paddingTop: "5rem" }}>
+                PacifiX
               </h1>
+              <h2 style={{color:"white"}}>AI-powered suite that</h2>
               <p style={{ fontSize: "1rem", color: "#22d1ee" }}>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been{" "}
@@ -30,7 +31,7 @@ export default class HomePage extends Component {
         </header>
         <main style={{ textAlign: "center" }}>
           <div style={{ height: "650x", padding: "2rem" }}>
-            <h1 style={{ color: "white" }}>Our Services</h1>
+            <h1 style={{ color: "#ff5959" }}>Our Services</h1>
             <Row justify="center">
               <Col md={12}>
                 <p style={{ fontSize: "1rem" }}>
@@ -111,7 +112,7 @@ export default class HomePage extends Component {
             </Row>
           </div>
           <div style={{ height: "500px" }}>
-            <h1 style={{ color: "white" }}>Language Support and Integration</h1>
+            <h1 style={{ color: "#ff5959" }}>Language Support and Integration</h1>
             <Row justify="center">
               <Col md={12}>
                 <p style={{ color: "#000000" }}>
@@ -180,7 +181,7 @@ export default class HomePage extends Component {
             </Row>
           </div>
           <div style={{ height: "500px" }}>
-            <h1 style={{ color: "white" }}>Our Clients</h1>
+            <h1 style={{ color: "#ff5959" }}>Our Clients</h1>
             <Row justify="center">
               <Col md={12}>
                 <p style={{ color: "#000000" }}>
