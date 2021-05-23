@@ -10,7 +10,7 @@ export default class HomePage extends Component {
     return (
       <div
         style={{
-          backgroundColor: "#002651",
+          // 
           height: "100%",
           textAlign: "center",
           margin: "0",
@@ -61,13 +61,13 @@ export default class HomePage extends Component {
                   }
                   style={{
                     border: "0",
-                    backgroundColor: "#002651",
+                    
                     width: "25rem",
                     boxShadow:
                       "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
                   }}
                 >
-                  <h2 style={{ color: "white" }}>Smart Search</h2>
+                  <h2 >Smart Search</h2>
 
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -93,13 +93,13 @@ export default class HomePage extends Component {
                   }
                   style={{
                     border: "none",
-                    backgroundColor: "#002651",
+                    
                     width: "25rem",
                     boxShadow:
                       "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
                   }}
                 >
-                  <h2 style={{ color: "white" }}>
+                  <h2 >
                     Smart Category Merchandising
                   </h2>
 
@@ -133,13 +133,13 @@ export default class HomePage extends Component {
                   }
                   style={{
                     border: "none",
-                    backgroundColor: "#002651",
+                    
                     width: "25rem",
                     boxShadow:
                       "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
                   }}
                 >
-                  <h2 style={{ color: "white" }}>
+                  <h2 >
                     Recomendation Search Engine
                   </h2>
 
@@ -166,14 +166,14 @@ export default class HomePage extends Component {
                     />
                   }
                   style={{
-                    border: "1px solid #22d1ee",
-                    backgroundColor: "#002651",
+                    border: "none",
+                    
                     width: "25rem",
                     boxShadow:
                       "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
                   }}
                 >
-                  <h2 style={{ color: "white" }}>Personilasation Engine</h2>
+                  <h2 >Personilasation Engine</h2>
 
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
