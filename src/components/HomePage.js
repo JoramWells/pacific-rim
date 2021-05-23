@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import { Row, Col, Card, Button } from "antd";
+import search from "../img/search.svg";
+import client from "../img/client.svg";
+import product from "../img/product.svg";
+import payment from "../img/payment.svg";
 
 export default class HomePage extends Component {
   render() {
@@ -12,15 +16,14 @@ export default class HomePage extends Component {
           margin: "0",
         }}
       >
-        <header style={{height:"500px"}}>
+        <header style={{ height: "500px" }}>
           <Row justify="space-around" align="middle">
             <Col md={12}>
-              <h1 style={{ color: "#ff5959", paddingTop: "5rem" }}>
-                PacifiX
-              </h1>
+              <h1 style={{ color: "#ff5959", paddingTop: "5rem" }}>PacifiX</h1>
               <p style={{ fontSize: "1rem", color: "#22d1ee" }}>
-                Its an easy to integrate search engine for your blog site, e-commerce or CRM application. It comes pre-configured with a mem-cached, optimized.
-
+                Its an easy to integrate search engine for your blog site,
+                e-commerce or CRM application. It comes pre-configured with a
+                mem-cached, optimized.
               </p>
               <Button size="large" type="primary">
                 <b>Get Started</b>
@@ -33,7 +36,7 @@ export default class HomePage extends Component {
             <h1 style={{ color: "#ff5959" }}>Our Services</h1>
             <Row justify="center">
               <Col md={12}>
-                <p style={{ fontSize: "1rem", color:"#22d1ee" }}>
+                <p style={{ fontSize: "1rem", color: "#22d1ee" }}>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s
@@ -44,13 +47,27 @@ export default class HomePage extends Component {
             <Row justify="space-around" align="middle">
               <Col>
                 <Card
+                  cover={
+                    <img
+                      src={search}
+                      alt="search"
+                      style={{
+                        width: "150px",
+                        height: "150px",
+                        display: "block",
+                        margin: "auto",
+                      }}
+                    />
+                  }
                   style={{
-                    border: "1px solid #22d1ee",
+                    border: "0",
                     backgroundColor: "#002651",
                     width: "25rem",
+                    boxShadow:
+                      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
                   }}
                 >
-                <h2 style={{color:"white"}}>Smart Search</h2>
+                  <h2 style={{ color: "white" }}>Smart Search</h2>
 
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -61,13 +78,30 @@ export default class HomePage extends Component {
               </Col>
               <Col>
                 <Card
+                  cover={
+                    <img
+                      src={client}
+                      alt="client"
+                      style={{
+                        width: "150px",
+                        height: "150px",
+                        display: "block",
+                        margin: "auto",
+                        objectFit: "contain",
+                      }}
+                    />
+                  }
                   style={{
-                    border: "1px solid #22d1ee",
+                    border: "none",
                     backgroundColor: "#002651",
                     width: "25rem",
+                    boxShadow:
+                      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
                   }}
                 >
-                <h2 style={{color:"white"}}>Smart Category Merchandising</h2>
+                  <h2 style={{ color: "white" }}>
+                    Smart Category Merchandising
+                  </h2>
 
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -84,13 +118,30 @@ export default class HomePage extends Component {
             >
               <Col>
                 <Card
+                  cover={
+                    <img
+                      src={product}
+                      alt="product"
+                      style={{
+                        width: "150px",
+                        height: "150px",
+                        display: "block",
+                        margin: "auto",
+                        objectFit: "contain",
+                      }}
+                    />
+                  }
                   style={{
-                    border: "1px solid #22d1ee",
+                    border: "none",
                     backgroundColor: "#002651",
                     width: "25rem",
+                    boxShadow:
+                      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
                   }}
                 >
-                <h2 style={{color:"white"}}>Recomendation Search Engine</h2>
+                  <h2 style={{ color: "white" }}>
+                    Recomendation Search Engine
+                  </h2>
 
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -101,13 +152,28 @@ export default class HomePage extends Component {
               </Col>
               <Col>
                 <Card
+                  cover={
+                    <img
+                      src={payment}
+                      alt="payment"
+                      style={{
+                        width: "150px",
+                        height: "150px",
+                        display: "block",
+                        margin: "auto",
+                        objectFit: "contain",
+                      }}
+                    />
+                  }
                   style={{
                     border: "1px solid #22d1ee",
                     backgroundColor: "#002651",
                     width: "25rem",
+                    boxShadow:
+                      "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
                   }}
                 >
-                <h2 style={{color:"white"}}>Personilasation Engine</h2>
+                  <h2 style={{ color: "white" }}>Personilasation Engine</h2>
 
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -119,7 +185,9 @@ export default class HomePage extends Component {
             </Row>
           </div>
           <div style={{ height: "500px" }}>
-            <h1 style={{ color: "#ff5959" }}>Language Support and Integration</h1>
+            <h1 style={{ color: "#ff5959" }}>
+              Language Support and Integration
+            </h1>
             <Row justify="center">
               <Col md={12}>
                 <p style={{ color: "#000000" }}>
